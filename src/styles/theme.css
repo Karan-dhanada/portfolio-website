@@ -1,0 +1,29 @@
+:root {
+  /* Background */
+  --color-bg: #080808;
+  --color-bg-secondary: #0f0f0f;
+  --color-card: #121212;
+
+  /* Primary */
+  --color-primary: #ff2d55;
+  --color-primary-dark: #d91f43;
+
+  /* Text */
+  --color-text: #ffffff;
+  --color-text-secondary: #a1a1aa;
+  --color-text-muted: #71717a;
+
+  /* Borders */
+  --color-border: #27272a;
+
+  /* Effects */
+  --shadow-glow: 0 0 30px rgba(255, 45, 85, 0.15);
+
+  /* Layout */
+  --container-width: 1200px;
+
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+}
