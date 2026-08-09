@@ -1,6 +1,7 @@
 import { FaCode, FaGithub } from "react-icons/fa";
 import { useState } from "react";
 
+
 function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const navLinks = [
