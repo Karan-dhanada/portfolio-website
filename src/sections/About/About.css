@@ -1,0 +1,134 @@
+
+
+.about-section {
+  padding: 80px 0;
+}
+
+.about-container {
+  width: min(1100px, 90%);
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+
+  padding: 32px;
+
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+}
+
+.about-content h2,
+.journey-content h2 {
+  margin-bottom: 24px;
+
+  font-size: 24px;
+  font-weight: 600;
+
+  color: var(--color-text);
+}
+
+.about-content h2::before {
+  content: "</> ";
+  color: var(--color-primary);
+}
+
+.journey-content h2::before {
+  content: "🚀 ";
+}
+
+.about-content p {
+  max-width: 480px;
+
+  margin-bottom: 18px;
+
+  color: var(--color-text-secondary);
+
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.journey-timeline {
+    position: relative;
+    padding-left: 110px;
+}
+
+.journey-timeline::before {
+    content: "";
+
+    position: absolute;
+
+    /* IMPORTANT */
+    left: 110px;
+
+    top: 5px;
+    bottom: 5px;
+
+    width: 1px;
+
+    background: rgba(255, 255, 255, 0.2);
+
+    z-index: 0;
+}
+.journey-item {
+    position: relative;
+    min-height: 60px;
+}
+
+.journey-year {
+    position: absolute;
+    left: -90px;
+
+    width: 70px;
+    text-align: right;
+
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+.journey-title {
+    display: block;
+
+    /* THIS is the important part */
+    margin-left: 25px;
+
+    color: var(--color-text-secondary);
+}
+
+.journey-dot {
+    position: absolute;
+
+    left: -4px;
+    top: 5px;
+
+    width: 9px;
+    height: 9px;
+
+    border-radius: 50%;
+
+    background: var(--color-primary);
+
+    box-shadow: 0 0 10px var(--color-primary);
+
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .about-container {
+    grid-template-columns: 1fr;
+
+    padding: 24px;
+
+    gap: 50px;
+  }
+}
+
+
