@@ -25,8 +25,8 @@ export const skills = [
     level: 4,
   },
   {
-    name: "Express.js",
-    icon: "devicon-express-original",
+    name: "FastAPI",
+    icon: "devicon-fastapi-plain",
     level: 4,
   },
   {
@@ -35,8 +35,8 @@ export const skills = [
     level: 4,
   },
   {
-    name: "MySQL",
-    icon: "devicon-mysql-plain colored",
+    name: "PostgreSQL",
+    icon: "devicon-postgresql-plain colored",
     level: 4,
   },
   {
@@ -50,8 +50,8 @@ export const skills = [
     level: 4,
   },
   {
-    name: "Tailwind",
-    icon: "devicon-tailwindcss-original colored",
+    name: "Docker",
+    icon: "devicon-docker-plain colored",
     level: 4,
   },
   {

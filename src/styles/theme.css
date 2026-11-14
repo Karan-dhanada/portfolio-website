@@ -1,29 +1,76 @@
+
 :root {
-  /* Background */
+  /* ========================================
+     BACKGROUND COLORS
+  ======================================== */
+
   --color-bg: #080808;
   --color-bg-secondary: #0f0f0f;
   --color-card: #121212;
 
-  /* Primary */
+  /* ========================================
+     PRIMARY / ACCENT COLORS
+  ======================================== */
+
   --color-primary: #ff2d55;
   --color-primary-dark: #d91f43;
+  --color-primary-light: #ff647f;
 
-  /* Text */
+  /* ========================================
+     TEXT COLORS
+  ======================================== */
+
   --color-text: #ffffff;
   --color-text-secondary: #a1a1aa;
   --color-text-muted: #71717a;
 
-  /* Borders */
+  /* ========================================
+     BORDER COLORS
+  ======================================== */
+
   --color-border: #27272a;
+  --color-border-hover: #ff2d55;
 
-  /* Effects */
+  /* ========================================
+     EFFECTS
+  ======================================== */
+
   --shadow-glow: 0 0 30px rgba(255, 45, 85, 0.15);
+  --shadow-card: 0 8px 30px rgba(0, 0, 0, 0.3);
 
-  /* Layout */
+  /* ========================================
+     LAYOUT
+  ======================================== */
+
   --container-width: 1200px;
+  --navbar-height: 80px;
+  --section-spacing: 100px;
 
-  /* Radius */
+  /* ========================================
+     BORDER RADIUS
+  ======================================== */
+
   --radius-sm: 6px;
   --radius-md: 12px;
   --radius-lg: 20px;
+  --radius-full: 9999px;
+
+  /* ========================================
+     TRANSITIONS
+  ======================================== */
+
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}
+
+/* ========================================
+   RESPONSIVE THEME SETTINGS
+======================================== */
+
+@media (max-width: 768px) {
+  :root {
+    --section-spacing: 70px;
+    --navbar-height: 70px;
+  }
 }
